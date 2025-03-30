@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B59384732D946508001E4F9A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B59384722D946508001E4F9A /* GoogleSignIn */; };
+		B59384762D94667C001E4F9A /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = B59384752D94667C001E4F9A /* FacebookCore */; };
+		B59384782D94667C001E4F9A /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = B59384772D94667C001E4F9A /* FacebookLogin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B593844A2D94620B001E4F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B593842B2D946205001E4F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59384322D946205001E4F9A;
+			remoteInfo = SocialAccountLogin;
+		};
+		B59384542D94620B001E4F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B593842B2D946205001E4F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59384322D946205001E4F9A;
+			remoteInfo = SocialAccountLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B59384332D946205001E4F9A /* SocialAccountLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialAccountLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59384492D94620B001E4F9A /* SocialAccountLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAccountLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59384532D94620B001E4F9A /* SocialAccountLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAccountLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B593845B2D94620B001E4F9A /* Exceptions for "SocialAccountLogin" folder in "SocialAccountLogin" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B59384322D946205001E4F9A /* SocialAccountLogin */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B59384352D946205001E4F9A /* SocialAccountLogin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B593845B2D94620B001E4F9A /* Exceptions for "SocialAccountLogin" folder in "SocialAccountLogin" target */,
+			);
+			path = SocialAccountLogin;
+			sourceTree = "<group>";
+		};
+		B593844C2D94620B001E4F9A /* SocialAccountLoginTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SocialAccountLoginTests;
+			sourceTree = "<group>";
+		};
+		B59384562D94620B001E4F9A /* SocialAccountLoginUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SocialAccountLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59384302D946205001E4F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59384732D946508001E4F9A /* GoogleSignIn in Frameworks */,
+				B59384762D94667C001E4F9A /* FacebookCore in Frameworks */,
+				B59384782D94667C001E4F9A /* FacebookLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59384462D94620B001E4F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59384502D94620B001E4F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B593842A2D946205001E4F9A = {
+			isa = PBXGroup;
+			children = (
+				B59384352D946205001E4F9A /* SocialAccountLogin */,
+				B593844C2D94620B001E4F9A /* SocialAccountLoginTests */,
+				B59384562D94620B001E4F9A /* SocialAccountLoginUITests */,
+				B59384342D946205001E4F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59384342D946205001E4F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59384332D946205001E4F9A /* SocialAccountLogin.app */,
+				B59384492D94620B001E4F9A /* SocialAccountLoginTests.xctest */,
+				B59384532D94620B001E4F9A /* SocialAccountLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59384322D946205001E4F9A /* SocialAccountLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B593845C2D94620B001E4F9A /* Build configuration list for PBXNativeTarget "SocialAccountLogin" */;
+			buildPhases = (
+				B593842F2D946205001E4F9A /* Sources */,
+				B59384302D946205001E4F9A /* Frameworks */,
+				B59384312D946205001E4F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B59384352D946205001E4F9A /* SocialAccountLogin */,
+			);
+			name = SocialAccountLogin;
+			packageProductDependencies = (
+				B59384722D946508001E4F9A /* GoogleSignIn */,
+				B59384752D94667C001E4F9A /* FacebookCore */,
+				B59384772D94667C001E4F9A /* FacebookLogin */,
+			);
+			productName = SocialAccountLogin;
+			productReference = B59384332D946205001E4F9A /* SocialAccountLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B59384482D94620B001E4F9A /* SocialAccountLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59384612D94620B001E4F9A /* Build configuration list for PBXNativeTarget "SocialAccountLoginTests" */;
+			buildPhases = (
+				B59384452D94620B001E4F9A /* Sources */,
+				B59384462D94620B001E4F9A /* Frameworks */,
+				B59384472D94620B001E4F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B593844B2D94620B001E4F9A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B593844C2D94620B001E4F9A /* SocialAccountLoginTests */,
+			);
+			name = SocialAccountLoginTests;
+			packageProductDependencies = (
+			);
+			productName = SocialAccountLoginTests;
+			productReference = B59384492D94620B001E4F9A /* SocialAccountLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B59384522D94620B001E4F9A /* SocialAccountLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59384642D94620B001E4F9A /* Build configuration list for PBXNativeTarget "SocialAccountLoginUITests" */;
+			buildPhases = (
+				B593844F2D94620B001E4F9A /* Sources */,
+				B59384502D94620B001E4F9A /* Frameworks */,
+				B59384512D94620B001E4F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B59384552D94620B001E4F9A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B59384562D94620B001E4F9A /* SocialAccountLoginUITests */,
+			);
+			name = SocialAccountLoginUITests;
+			packageProductDependencies = (
+			);
+			productName = SocialAccountLoginUITests;
+			productReference = B59384532D94620B001E4F9A /* SocialAccountLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B593842B2D946205001E4F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B59384322D946205001E4F9A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B59384482D94620B001E4F9A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B59384322D946205001E4F9A;
+					};
+					B59384522D94620B001E4F9A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B59384322D946205001E4F9A;
+					};
+				};
+			};
+			buildConfigurationList = B593842E2D946205001E4F9A /* Build configuration list for PBXProject "SocialAccountLogin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B593842A2D946205001E4F9A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B59384712D946508001E4F9A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				B59384742D94667C001E4F9A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B59384342D946205001E4F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59384322D946205001E4F9A /* SocialAccountLogin */,
+				B59384482D94620B001E4F9A /* SocialAccountLoginTests */,
+				B59384522D94620B001E4F9A /* SocialAccountLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59384312D946205001E4F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59384472D94620B001E4F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59384512D94620B001E4F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B593842F2D946205001E4F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59384452D94620B001E4F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B593844F2D94620B001E4F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B593844B2D94620B001E4F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59384322D946205001E4F9A /* SocialAccountLogin */;
+			targetProxy = B593844A2D94620B001E4F9A /* PBXContainerItemProxy */;
+		};
+		B59384552D94620B001E4F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59384322D946205001E4F9A /* SocialAccountLogin */;
+			targetProxy = B59384542D94620B001E4F9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B593845D2D94620B001E4F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANVJ832C4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialAccountLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnlin.SocialAccountLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B593845E2D94620B001E4F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANVJ832C4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialAccountLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnlin.SocialAccountLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B593845F2D94620B001E4F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B59384602D94620B001E4F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59384622D94620B001E4F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANVJ832C4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnlin.SocialAccountLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialAccountLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialAccountLogin";
+			};
+			name = Debug;
+		};
+		B59384632D94620B001E4F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANVJ832C4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnlin.SocialAccountLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialAccountLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SocialAccountLogin";
+			};
+			name = Release;
+		};
+		B59384652D94620B001E4F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANVJ832C4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnlin.SocialAccountLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocialAccountLogin;
+			};
+			name = Debug;
+		};
+		B59384662D94620B001E4F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ANVJ832C4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnlin.SocialAccountLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SocialAccountLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B593842E2D946205001E4F9A /* Build configuration list for PBXProject "SocialAccountLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593845F2D94620B001E4F9A /* Debug */,
+				B59384602D94620B001E4F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B593845C2D94620B001E4F9A /* Build configuration list for PBXNativeTarget "SocialAccountLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B593845D2D94620B001E4F9A /* Debug */,
+				B593845E2D94620B001E4F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59384612D94620B001E4F9A /* Build configuration list for PBXNativeTarget "SocialAccountLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59384622D94620B001E4F9A /* Debug */,
+				B59384632D94620B001E4F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59384642D94620B001E4F9A /* Build configuration list for PBXNativeTarget "SocialAccountLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59384652D94620B001E4F9A /* Debug */,
+				B59384662D94620B001E4F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B59384712D946508001E4F9A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		B59384742D94667C001E4F9A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B59384722D946508001E4F9A /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B59384712D946508001E4F9A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		B59384752D94667C001E4F9A /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B59384742D94667C001E4F9A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		B59384772D94667C001E4F9A /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B59384742D94667C001E4F9A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B593842B2D946205001E4F9A /* Project object */;
+}
